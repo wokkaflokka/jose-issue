@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      "lib": ["es6", "es2017", "esnext.asynciterable"],
+      "outDir": "./dist",
+      "strict": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "esModuleInterop": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["./src/**/*.ts", "scripts/**/*.ts", "scripts/command.ts", "src/common.ts", "src/index.ts"]
+  }
+  
