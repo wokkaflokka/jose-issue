@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "jose": "3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "engines": {
+    "node": "12.x.x"
+  },
+  "scripts": {
+    "start": "node --experimental-modules src/index.js",
+    "startlocal": "nodemon --exec npm start",
+    "executeCommand": "node --experimental-modules ./scripts/command.js"
+  },
+  "type": "module"
+}
